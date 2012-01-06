@@ -55,7 +55,7 @@ class SiriProxy::Plugin::Horoscope < SiriProxy::Plugin
 			
 			horoscope = get_horoscope(sign.downcase)
 			
-			say "#{horoscope.show_sign}: #{horoscope.show_horoscope}"
+			say "#{horoscope.show_sign.upcase}: #{horoscope.show_horoscope}"
 		
 			request_completed
 		}
