@@ -1,7 +1,7 @@
-PunchFork Random Recipe Generator, Siri style!
+Horoscope, Siri style!
 ==============================================
 
-This is a plugin for SiriProxy that returns a random recipe from the PunchFork API (http://www.punchfork.com/api)
+This is a plugin for SiriProxy that returns a horoscope.
 
 Setup
 -----
@@ -10,18 +10,9 @@ Setup
 2. rvmsudo siriproxy update.
 3. Restart SiriProxy.
 
-Requirements
-------------
-
-You'll need to register an account and obtain an API Key from http://punchfork.com/api in order to use this plugin.
-
-NOTE: The Punchfork API limits the number of queries a single key can execute per day. For a **free price** you get a maximum of **500 API calls/day**.
-
-More info can be found here: http://punchfork.com/api#pricing
-
 Usage
 -----
 
-**Say:** Siri, what's for dinner? or Siri, what's to eat?
+**Say:** Siri, what's the horoscope for Pisces?
 
-Will return a random recipe from the PunchFork API.
+Will return the horoscope sign and message.
