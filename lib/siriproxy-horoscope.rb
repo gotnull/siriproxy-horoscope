@@ -36,7 +36,7 @@ class SiriProxy::Plugin::Horoscope < SiriProxy::Plugin
 		horoscope = nil
 		
 		unless show_info.nil?
-			horoscope_message = "#{show_info['horoscope']['horoscope']}."
+			horoscope_message = "#{show_info['horoscope']['horoscope']}"
 			horoscope_sign = show_info['horoscope']['sign']
 			
 			horoscope = Horoscope.new(horoscope_sign, horoscope_message)
